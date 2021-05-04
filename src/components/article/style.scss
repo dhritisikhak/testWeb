@@ -1,0 +1,445 @@
+.postCategoryText{
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    font-family:Roboto,sans-serif;
+}
+
+.postTitle{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    
+    font-family:Roboto,sans-serif;
+}
+
+.postAuthor{
+    color: #1b91ff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    
+    font-family:Roboto,sans-serif;
+}
+.postAuthorDate{
+    color: #898989;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    
+    font-family:Roboto,sans-serif;
+    position: relative;
+    bottom: 15px;
+}
+
+
+@media only screen and (min-width: 1700px){
+    .card{
+        width: 300px;
+        height: 350px;
+    }
+    .freshText{
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        position: relative;
+        left: 20px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+    
+    .heightofdiv{
+        height: 720px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1699px){
+    .card{
+        width: 300px;
+        height: 330px;
+    }
+    .freshText{
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        position: relative;
+        left: 20px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+   
+    .heightofdiv{
+        height: 680px;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+    .card{
+        width: 300px;
+        height: 330px;
+    }
+    .sideMargin{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .heightofdiv{
+        height: 600px;
+    }
+
+    .freshText{
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        position: relative;
+        left: 15px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+   
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1365px) and (orientation: portrait) {
+    .card{
+        width: 240px;
+        height: 330px;
+    }
+    .sideMargin{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .heightofdiv{
+        height: 520px;
+    }
+
+    .freshText{
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        position: relative;
+        left: 40px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+    
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1365px) and (orientation: landscape) {
+    .card{
+        width: 240px;
+        height: 330px;
+    }
+    .sideMargin{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .heightofdiv{
+        height: 560px;
+    }
+
+    .freshText{
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        position: relative;
+        left: 30px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+   
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1024px) and (orientation: landscape) {
+    .card{
+        width: 240px;
+        height: 330px;
+    }
+    .sideMargin{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .heightofdiv{
+        height: 500px;
+    }
+
+    .freshText{
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        position: relative;
+        left: 40px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+    
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1023px) 
+and (orientation: portrait) {
+    .card{
+        width: 260px;
+        height: 330px;
+    }
+    .sideMargin{
+        margin-left: 80px;
+        margin-right: 60px;
+    }
+
+    .heightofdiv{
+        height: 500px;
+    }
+
+    .freshText{
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        position: relative;
+        left: 50px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+   
+}
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1023px) 
+and (orientation: landscape){
+    .card{     
+        width: 290px;
+        height: 330px;
+    }
+    .sideMargin{
+        margin-left: 80px;
+        margin-right: 60px;
+    }
+
+    .heightofdiv{
+        height: 500px;
+    }
+
+    .freshText{
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        position: relative;
+        left: 50px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+    
+}
+
+@media only screen 
+and (min-width : 567px) 
+and (max-width : 767px) {
+    .card{     
+        width: 260px;
+        height: 330px;
+    }
+    .sideMargin{
+        margin-left: 70px;
+        margin-right: 60px;
+    }
+
+    .heightofdiv{
+        height: 480px;
+    }
+
+    .freshText{
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        position: relative;
+        left: 50px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+    
+}
+
+@media only screen and (max-width: 568px){
+    .layerHeadLanding{
+        position: relative;
+        top: 300px;
+        
+    }
+
+        .entertainment{
+            margin: auto;
+            width: 60%;
+        }
+    .landingText{
+        color: #000000;
+        text-decoration: none;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: .03em;
+        text-align: center;
+        font-family:Roboto,sans-serif;
+    }
+    .landingText1{
+        text-align: center;
+    }
+    .card{     
+        width: 100%;
+        height: 360px;
+    }
+    .sideMargin{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .heightofdiv{
+        height: 680px;
+    }
+
+    .freshText{
+        margin: auto;
+            width: 60%;
+        background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
+        color: #fff;
+        width: 140px;
+        height: 32px;
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            font-family:Roboto,sans-serif;
+    
+        }
+    }
+
+   
+}
+
+.postImage {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.postImage:hover {
+    overflow: hidden;
+    transform: scale(1.1);
+}
+
+.card-body:hover{
+    .postImage{
+        overflow: hidden;
+        transform: scale(1.1);
+    }
+}
+
+
+.MuiGrid-spacing-xs-3 {
+    width: calc(100% + 24px);
+    margin: 0px;
+}

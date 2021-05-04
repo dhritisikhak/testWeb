@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import './App.scss';
+import Header from "./components/header/header";
+import LandingPage from "./components/landingPage/landingPage";
+import Article from "./components/article/article"
+import Footer from "./components/footer/footer";
 
-function App() {
+class App extends React.Component {
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <div className="heightofdiv">
+        <div style={{zIndex:`10`, position:`relative`}}>
+        <Header />
+        </div>
+        <LandingPage />
+      </div>
+      <Article />
+      <div>
+      </div>
+      
+      <div className="position-bottom content-wrapper">
+      <hr />
+      <Footer />
+      </div>
+      
     </div>
   );
+}
 }
 
 export default App;

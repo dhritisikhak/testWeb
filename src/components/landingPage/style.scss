@@ -1,52 +1,63 @@
-.landingImage{
-    background-image: linear-gradient(to bottom, #000000, 30%, rgba(255, 255, 255, 0)), url("https://s4.scoopwhoop.com/anj2/60547185c8d1115b02424f3a/77808a56-3907-44bd-a6f2-e270996c225c.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 25%;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 0;
+.landingImage {
+  background-image: linear-gradient(
+      to bottom,
+      #000000,
+      30%,
+      rgba(255, 255, 255, 0)
+    ),
+    url("https://s4.scoopwhoop.com/anj2/60547185c8d1115b02424f3a/77808a56-3907-44bd-a6f2-e270996c225c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
 }
 
-.layerHeadLanding{
-    position: relative;
-    bottom: 40px;
+.layerHeadLanding {
+  position: relative;
+  bottom: 40px;
 }
 
-.entertainment{
-    background: linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%) no-repeat;
-    color: #fff;
-    width: 140px;
-    height: 25px;
-    p{
-        margin: 0 auto;
-        text-align: center;
-        padding-top: 2px;
-        font-size: 13px;
-        font-weight: 600;
-        font-family:Roboto,sans-serif;
-        color: #ffffff;
-    }
-}
-
-.landingText{
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: .03em;
-    line-height: 120%;
-    font-family:Roboto,sans-serif;
-}
-
-.landingText1{
-    background: -webkit-linear-gradient(136.04deg,#1b91ff -.78%,#9f49e3 92.66%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
-    font-size: 14px;
+.entertainment {
+  background: linear-gradient(136.04deg, #1b91ff -0.78%, #9f49e3 92.66%)
+    no-repeat;
+  color: #fff;
+  width: 140px;
+  height: 25px;
+  p {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 13px;
     font-weight: 600;
-    letter-spacing: .03em;
-    font-family:Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+  }
+}
+
+.landingText {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 120%;
+  font-family: Roboto, sans-serif;
+}
+
+.landingText1 {
+  background: -webkit-linear-gradient(
+    136.04deg,
+    #1b91ff -0.78%,
+    #9f49e3 92.66%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
 }

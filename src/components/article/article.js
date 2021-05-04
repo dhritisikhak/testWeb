@@ -64,22 +64,21 @@ class Articles extends React.Component {
     super(props);
     this.state = {
       articlePosts: [],
-      page: 0,
-      pageNum: 0,
+      page: 0
     };
   }
 
-  componentDidMount() {
-    window.addEventListener("scroll", this.infiniteScroll); // this is to call the infinite scroll function when the component is mounted
-    this.fetchPostsArticles(this.state.page); //this is to call the fetch function the first time when the component is mounted with offset=0
+  componentDidMount = () => {
+    window.addEventListener("scroll", this.infiniteScrollFunction); // this is to call the infinite scroll function when the component is mounted
+    this.fetchPostsArticles(this.state.page); //this is to call the fetch function when the component is mounted or rendered with offset=0
   }
 
-  infiniteScroll = () => {
+  infiniteScrollFunction = () => {
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
       // to check when we will reach the bottom of the page
       let newPage = this.state.page; // if we are at the bottom of the page then the offset is incremented to 10
       this.setState({
-        page: newPage + 10,
+        page: newPage + 10
       });
       this.fetchPostsArticles(newPage); //pass the offset (page) value to the API fetch function and call the function
     }
@@ -95,7 +94,6 @@ class Articles extends React.Component {
         this.setState({
           articlePosts: [...this.state.articlePosts, ...data.data],
         });
-        console.log(this.state.articlePosts);
       });
   };
 
@@ -108,8 +106,8 @@ class Articles extends React.Component {
           </div>
         </div>
         <Grid container>
-          {this.state.articlePosts.map((articlePostdata, idx) => (
-            <ArticlePost key={idx} articlePost={articlePostdata} />
+          {this.state.articlePosts.map((articlePostdata) => (
+            <ArticlePost articlePost={articlePostdata} />
           ))}
         </Grid>
         <div></div>
